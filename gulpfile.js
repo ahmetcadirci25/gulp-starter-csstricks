@@ -12,7 +12,7 @@ var runSequence = require('run-sequence');
 
 // Basic Gulp task syntax
 gulp.task('hello', function() {
-  console.log('Hello Zell!');
+  console.log('Merhaba!');
 })
 
 // Development Tasks 
