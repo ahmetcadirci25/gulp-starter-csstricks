@@ -1,0 +1,35 @@
+@mixin bp-iphone-max {
+    @media (max-width: 380px) {
+        @content;
+    } 
+}
+@mixin bp-sm-min {
+    @media (min-width: $screen-sm-min) {
+        @content;
+    } 
+}
+@mixin bp-sm-max {
+    @media (max-width: $screen-sm-max) {
+        @content;
+    } 
+}
+@mixin bp-md-min {
+    @media (min-width: $screen-md-min) {
+        @content;
+    } 
+}
+@mixin bp-md-max {
+    @media (max-width: $screen-md-max) {
+        @content;
+    } 
+}
+@mixin bp-lg-min {
+    @media (min-width: $screen-lg-min) {
+        @content;
+    } 
+}
+@mixin bp-lg-max {
+    @media (max-width: $screen-lg-max) {
+        @content;
+    } 
+}

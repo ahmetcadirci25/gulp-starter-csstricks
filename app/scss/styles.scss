@@ -1,3 +1,16 @@
-.testing {
-  width: percentage(5/7);
-}
+/* Font Awesome Free 5.2.0*/ 
+// @import "fontawesome/fontawesome";
+// @import "fontawesome/fa-solid";
+// @import "fontawesome/fa-brands";
+// @import "fontawesome/fa-regular";
+
+/* Bootstrap v4.1.1 */ 
+@import "bootstrap/bootstrap";
+
+/* Süslü Kuyumcu v1.0.0 */ 
+@import "themes/mixins/responsive";
+@import "themes/mixins/font-calc";
+@import "themes/fonts";
+@import "themes/functions";
+@import "themes/variables";
+@import "themes/global";
